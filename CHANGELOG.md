@@ -1,4 +1,5 @@
 
+### September 7, 2020 version 1.5.4
  * Add missing declaration for `GetCurrentThreadId()` in `Generator` when `NO_WINDOWS_H` is defined
  * Process `#undef` directives to allow redefining macros with `Parser` ([issue bytedeco/javacpp-presets#935](https://github.com/bytedeco/javacpp-presets/issues/935))
  * Pick up in `Parser` methods specified with `override`, in addition to `virtual` ([issue #419](https://github.com/bytedeco/javacpp/issues/419))
